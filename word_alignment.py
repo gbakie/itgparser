@@ -47,9 +47,9 @@ def open_grammar_file(filename):
     return d
 
 
-vocab = open_dictionary_file("itg.dict")
-sentences_en = open_sentence_file("test.en") 
-sentences_de = open_sentence_file("test.de") 
+vocab = open_dictionary_file("data/itg.dict")
+sentences_en = open_sentence_file("data/test.en") 
+sentences_de = open_sentence_file("data/test.de") 
 #gr = open_grammar_file("grammar.dat")
 
 
