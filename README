@@ -1,0 +1,8 @@
+itgparser
+
+Implementation of an ITG Parser: returns the best word alignment for each sentence pair. 
+
+ItgParser: class implementing the parser. Must be given a dictionary with the log probabilities of the pair of words from both languages.
+
+
+For more details see: http://aclweb.org/anthology-new/J/J97/J97-3002.pdf
